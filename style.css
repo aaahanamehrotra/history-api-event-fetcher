@@ -1,0 +1,49 @@
+*{
+	color: #660066;
+	font-family: sans-serif;
+
+}
+
+.heading{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 40px;
+	font: cursive;
+}
+#empty{
+	justify-content: center;
+	width: 50%;
+	margin:auto;
+}
+.valOne{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.valTwo{
+	font-size: 20px;
+}
+
+form input, button{
+	line-height: 30px;
+	font-weight: 600;
+	font-size: 25px;
+	border-radius: 4px;
+	width: 200px;
+}
+
+form{
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+	margin: auto;
+}
+
+input:focus, button:focus{
+	border-color: #660066;
+	border-width: 2px;
+	background-color: #c8eff7;
+}
